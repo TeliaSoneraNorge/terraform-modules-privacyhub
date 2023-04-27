@@ -1,0 +1,19 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+/.idea
+
+# terraform
+**/.terraform
+**/*.tfstate*
+
+*.iml
+
+crash.log
+*_rds_log_state
+.gradle
+.idea
+*.iml
+*.ipr
+*.iws
+
+*.pyc
+*.zip
