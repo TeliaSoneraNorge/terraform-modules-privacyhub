@@ -33,10 +33,3 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
-
-# variable allowed_account_id {
-#   description = "PrivacyHub aws account ids"
-#   type        = string
-#   default     = "654964508717"
-  
-# }

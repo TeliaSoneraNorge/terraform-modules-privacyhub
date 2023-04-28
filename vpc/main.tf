@@ -6,7 +6,7 @@ data "aws_availability_zones" "main" {}
 locals {
   az_count          = length(data.aws_availability_zones.main.names)
   private_count     = min(length(data.aws_availability_zones.main.names), var.private_subnet_count)
-  nat_gateway_count = var.create_nat_gateways == "true" ? min(length(data.aws_availability_zones.main.names), var.private_subnet_count) : 0
+  nat_gateway_count = var.create_nat_gateways == true ? min(length(data.aws_availability_zones.main.names), var.private_subnet_count) : 0
 }
 
 # NOTE: depends_on is added for the vpc because terraform sometimes
