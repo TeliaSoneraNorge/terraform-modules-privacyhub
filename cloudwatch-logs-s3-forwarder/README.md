@@ -1,4 +1,4 @@
-This repo is duplicated from [https://github.com/TeliaSoneraNorge/telia-terraform-modules/tree/master/cloudwatch-logs-s3-forwarder]
+This repo is duplicated from [https://github.com/TeliaSoneraNorge/telia-terraform-modules/tree/master/cloudwatch-logs-s3-forwarder] to support terraform latest version.
 
 
 # Cloud Watch Log group subscriptions to S3 forwarder

@@ -1,6 +1,6 @@
 # Postgres db cloudwatch forwarder
 
-This repo is duplicated from [https://github.com/telia-oss/db-log-cloudwatch-forwarder/tree/2019.02.01.01]
+This repo is duplicated from [https://github.com/telia-oss/db-log-cloudwatch-forwarder/tree/2019.02.01.01] to support terraform latest version.
 
 
 # Purpose:
